@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himaja Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Himaja's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Learnings">Learnings</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection id=" Home">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Himaja</span>
+                <div>and I am a </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="Himaja_Resume.pdf" download>
+                        <button class="btn">Download Resume</button>
+                    </a>
+                    <button class="btn" onclick="openResume()">Preview Resume</button>
+                </div>
+                <script>
+                    function openResume() {
+                        window.open('Himaja_Resume.pdf');
+                    }
+                </script>
+            </div>
+            <div class="rightSection">
+                <img src="images/opt-removebg-preview.png" alt="" style="width: 610px">
+            </div>
+        </section>
+        <section class="SS" id="About">
+            <div class="lS">
+                <img src="images/1 (2).png" alt="" style="width:692px;left:-116px;">
+            </div>
+            <div class="rS">
+                Fuelled by code, inspired by innovation: That's me in a nutshell. As a tech-savvy B.Tech student
+                specializing in <span class="purple">Electronics and Communication</span>, my journey is a blend of
+                academic excellence and
+                practical prowess .Based in Hyderabad, my educational adventure is supported by a full scholarship at
+                the <span class="purple">Gokaraju Rangaraju Institute of Engineering and Technology</span>, highlighted
+                by a consistent record of
+                top grades.
+            </div>
+        </section>
+        <section class="secondSection" id="Learnings">
+            <h2><span class="purple">My</span> Learnings</h2>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="images/clogo.png" alt="" style="top: -135px;
+                    left: -56px;">
+                    <div class="vertical-title">
+                        <h3>C Language</h3>
+                    </div>
+                    <div class="vertical-desc">
+                        <p>Have a basic to intermediate knowledge about the language</p>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="images/pythlogo.png" alt="" style="left:-49px;">
+                    <div class="vertical-title">
+                        <h3>Python Language</h3>
+                    </div>
+                    <div class="vertical-desc">
+                        <p>My go-to programming language. I'm passionate about using it to create innovative solutions
+                        </p>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="images/javalogo.png" alt="" style="top: -143px;
+                    width: 64px; left: -33px;">
+                    <div class="vertical-title">
+                        <h3>Java Language</h3>
+                    </div>
+                    <div class="vertical-desc">
+                        <p>I'm only familiar with the basics of the language</p>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="images/fend.png" alt="" style="left: -56px;">
+                    <div class="vertical-title">
+                        <h3>Front-End Web development</h3>
+                    </div>
+                    <div class="vertical-desc">
+                        <p>While I am proficient in HTML and CSS, I am currently working on acquiring JavaScript skills
+                        </p>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="images/mllogo.png" alt="" style="left: -52px;">
+                    <div class="vertical-title">
+                        <h3>Deep Learning</h3>
+                    </div>
+                    <div class="vertical-desc">
+                        <p> Passionate about it cause it's fascinating to teach machines to learn and apply that
+                            knowledge to create groundbreaking innovations</p>
+                    </div>
+                </div>
+        </section>
+        <section class="services" id="Projects">
+            <h2 class="heading">My <span class="purple">Projects</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web development</h3>
+                    <p> I developed a replica of Amazon using HTML and CSS. This project was my introduction to
+                        front-end development and sparked my interest in the field. I gained a solid understanding of
+                        HTML and CSS fundamentals. </p>
+                </div>
+                <div class="services-box">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                    <p>I've developed a machine learning model designed to predict the onset of diabetes. This model
+                        leverages a Support Vector Machine (SVM) classifier to analyze and classify the data, providing
+                        accurate predictions based on various health metrics.</p>
+                </div>
+                <div class="services-box">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Deep Learning</h3>
+                    <p>I created a deep learning model capable of identifying skin cancer. I employed CNN and
+                        EfficientNet B0 architectures to build the model, which helped me grasp the fundamental concepts
+                        of deep learning.</p>
+                </div>
+            </div>
+        </section>
+        </hr>
+        <hr>
+        <section class="contact" id="Contact">
+            <h2 class="heading">Contact <span class="purple">Me</span></h2>
+            <form action="https://formspree.io/f/manwvlla" method="POST">
+                <div class="input-box">
+                    <input type="text" name="first" placeholder="Full Name">
+                    <input type="email" name="email address" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="number" placeholder="Mobile Number">
+                    <input type="text" name="email subject" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" name="message" rows="10" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="text-center">
+                Copyright &#169; www.himajaportfolio.com | All rights reserved
+            </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Student', 'Web Developer', 'Python Enthusiast'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
