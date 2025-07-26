@@ -97,6 +97,7 @@ body {
 .btn:hover {
     background-color: #9c97f1;
     transform: scale(1.05);
+    
 }
 
 .hero-image img {
